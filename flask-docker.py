@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'This is demo of Git + Docker + Jenkins CI/CD to Hybrid'
+    return 'This is Git + Docker + Jenkins CI/CD to Hybrid'
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
